@@ -11,7 +11,7 @@ export interface ArticleAsset{
     dataURL: string
   }
   content:[]
-  contentAsset:[]
+  totalWordCounts: number
 }
 
 export interface GET_responseArticleAsset extends ArticleAsset{

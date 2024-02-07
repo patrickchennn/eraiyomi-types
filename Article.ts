@@ -21,7 +21,6 @@ export interface Article{
   author: string,
   email: string,
   category: string[],
-  commentsIdRef: string,
   articleAssetIdRef: string
 }
 
