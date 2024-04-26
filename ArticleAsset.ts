@@ -10,7 +10,8 @@ export interface ArticleAsset{
     relativePath: string
     dataURL: string
   }
-  content:[]
+  contentStructureType: string | "quilljs" | "markdown" | undefined
+  content: [] | string
   totalWordCounts: number
 }
 

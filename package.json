@@ -1,6 +1,6 @@
 {
   "name": "@patorikkuuu/eraiyomi-types",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.d.ts",
   "types": "index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repository.git"
+    "url": "https://github.com/patrickchennn/eraiyomi-types"
   }
   
 }
