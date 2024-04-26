@@ -7,5 +7,4 @@ declare module "*.jpg"
 
 export * from './User';
 export * from './Article';
-export * from './CitesRef';
 export * from './ArticleAsset';
