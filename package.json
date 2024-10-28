@@ -1,10 +1,10 @@
 {
   "name": "@patorikkuuu/eraiyomi-types",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "index.d.ts",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git-push-tag": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

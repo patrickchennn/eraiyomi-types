@@ -10,11 +10,17 @@ export interface ArticleAsset{
     relativePath: string
     dataURL: string
   }
-  contentStructureType: string | "quilljs" | "markdown" | undefined
-  content: [] | string
+  contentStructureType: "markdown" | null
+  content: string | {
+    fileName: string,
+    relativePath:string,
+    mimeType: string,
+  }[]
   totalWordCounts: number
 }
 
-export interface GET_responseArticleAsset extends ArticleAsset{
-  thumbnailDataURL?: string
+// HTTP Article Asset Get Response Client side
+export interface HTTPGetArticleAssetRes extends ArticleAsset{
+  rawText?: string
+  rawHTML?: string  
 }
